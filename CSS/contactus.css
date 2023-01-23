@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: red;
+}
+.navbar1:hover{
+    background-color: rgb(248, 81, 81);
+}
+.navbar ul{
+    overflow: auto;
+    margin-top: -4px;
+    margin-left: 38px;
+}
+.navbar li
+{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 22px;
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 75px;
+    margin: 0px 0px 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+#search{
+    padding: 5px;
+}
+.search{
+    margin: 4px 0px 0px 1082px;
+    padding: 12px;
+}
+.img1{
+    width: 53px;
+    position: absolute;
+    margin: 5px 0px 0px -31px;
+}
+body{
+    background-color: rgb(236, 145, 145);
+    padding: 0px;
+    margin: 0px;
+}
+/* header::before{
+    content: "";
+    background: url('/img/gamesofficial.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+} */
+.container{
+    background-color: aquamarine;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+    transition: all 1s ease-in-out;
+}
+.box:hover{
+    /* transform: rotate(360deg); */
+    /* transform: skew(40deg) */
+    /* transform: scale(2); */
+    transform: translate(-123px, 123px);
+}

@@ -1,0 +1,199 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS Variables */
+/* This is Only For Show To Remind Me Use Variables For My Next Websites */
+:root{
+    --navbar-height: 29px;
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* Navigation Bar: Logo And Image */
+#logo{
+    margin: 10px 24px;
+}
+#logo img{
+    height: 65px;
+    width: 65px;
+    margin: 3px 6px;
+}
+/* Navigation Bar: List Styles */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Baloo Bhai', Arial;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 300px;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    background: url(/img/homebg.jpg) no-repeat center center/cover;
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home h1{
+    color: black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+}
+/* Utility Classes */
+.heading-p{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.6rem;
+    padding: 12px;
+}
+.btn{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    padding: 6px 20px;
+    margin: 6px 2px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.center{
+    text-align: center;
+}
+/* Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    background: rgb(247 243 243);
+    padding: 26px;
+    margin: 3px 6px;
+    border-radius: 28px;
+}
+.servicesheading-p{
+    font-size: 40px;
+    margin-bottom: -21px;
+}
+#hosting{
+    width: 141px;
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+#vps{
+    width: 203px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+#bulk-buying{
+    width: 170px;
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+/* Client Section */
+#clientsection{
+    height: 300px;
+}
+#clientsection::before{
+    content: "";
+    background: url(/img/our-clientsbg.jpg) center center/cover;
+    position: absolute;
+    height: 338.6px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 124px;
+}
+.clientlogo{
+    padding: 24px;
+}
+/* Contact Section */
+#contact{
+    margin-top: 39px;
+}
+#contact::before{
+    content: "";
+    background: url(/img/contactusbg.jpg)no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 37%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.formgroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+#contactbox input{
+    width: 20%;
+    padding: 0.5rem;
+}
+#contactbox label{
+    font-size: 1.3rem;
+    font-family: 
+    'Bree Serif', serif;
+}
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 21px;
+}

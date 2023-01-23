@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: red;
+}
+.navbar1:hover{
+    background-color: rgb(248, 81, 81);
+}
+.navbar ul{
+    overflow: auto;
+    margin-top: -8px;
+}
+.navbar li
+{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 22px;
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 75px;
+    margin: 0px 0px 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+#search{
+    padding: 5px;
+}
+.search{
+    margin: 0px 0px 0px 1049px;
+    padding: 12px;
+}
+.img1{
+    width: 53px;
+    position: absolute;
+    margin: 5px 0px 0px -31px;
+}
+.mainbody{
+    background-color: rgb(236, 145, 145)
+}
+.container1{
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    padding: 0px;
+    margin:  0px;
+}
+.gamesofficialheading{
+    font-size: 32px;
+    font-weight: bold;
+    background-color: rgb(250, 109, 109);
+    color: black;
+    padding: 0px 7px 4px;
+    margin: 361px;
+    border: 3px solid black;
+}
+.para1{
+    font-size: x-large;
+}
